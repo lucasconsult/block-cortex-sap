@@ -1,19 +1,22 @@
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "bigquery_city_trips"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project Name"
+  value: "cortex-sap-framework"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "REPORTING"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "Client ID"
+  value: "050"
   export: override_required
 }
+
+
+new_lookml_runtime: no
